@@ -1,0 +1,27 @@
+,BOROUGH,NUMBER_OF_PERSONS_INJURED,NUMBER_OF_PERSONS_KILLED,NUMBER_OF_PEDESTRIANS_INJURED,NUMBER_OF_PEDESTRIANS_KILLED,NUMBER_OF_CYCLIST_INJURED,NUMBER_OF_CYCLIST_KILLED,NUMBER_OF_MOTORIST_INJURED,NUMBER_OF_MOTORIST_KILLED,VEHICLE_TYPE_CODE_1,TYPE
+126446,BROOKLYN,0,0.0,0,0,0,0,0,0,Station Wagon/Sport Utility Vehicle,small
+126447,QUEENS,0,0.0,0,0,0,0,0,0,Sedan,small
+126448,BROOKLYN,0,0.0,0,0,0,0,0,0,Pick-up Truck,medium
+126449,BRONX,0,0.0,0,0,0,0,0,0,Bus,large
+126450,BRONX,0,0.0,0,0,0,0,0,0,Bus,large
+126451,BROOKLYN,0,0.0,0,0,0,0,0,0,Station Wagon/Sport Utility Vehicle,small
+126452,BROOKLYN,0,0.0,0,0,0,0,0,0,Station Wagon/Sport Utility Vehicle,small
+126453,BROOKLYN,0,0.0,0,0,0,0,0,0,Bus,large
+126454,QUEENS,2,0.0,0,0,0,0,2,0,Station Wagon/Sport Utility Vehicle,small
+126455,BROOKLYN,0,0.0,0,0,0,0,0,0,Sedan,small
+126456,BROOKLYN,0,0.0,0,0,0,0,0,0,Sedan,small
+126457,BRONX,0,0.0,0,0,0,0,0,0,Station Wagon/Sport Utility Vehicle,small
+126458,BRONX,0,0.0,0,0,0,0,0,0,Sedan,small
+126459,QUEENS,0,0.0,0,0,0,0,0,0,Station Wagon/Sport Utility Vehicle,small
+126460,BROOKLYN,0,0.0,0,0,0,0,0,0,Sedan,small
+126461,QUEENS,1,0.0,0,0,0,0,1,0,Station Wagon/Sport Utility Vehicle,small
+126462,QUEENS,1,0.0,0,0,0,0,1,0,Sedan,small
+126463,BRONX,0,0.0,0,0,0,0,0,0,Sedan,small
+126464,BRONX,1,0.0,0,0,0,0,1,0,Motorscooter,very_small
+126465,BRONX,0,0.0,0,0,0,0,0,0,Convertible,small
+126466,QUEENS,0,0.0,0,0,0,0,0,0,Sedan,small
+126467,BROOKLYN,1,0.0,0,0,0,0,2,0,Sedan,small
+126468,BROOKLYN,0,0.0,0,0,0,0,0,0,Sedan,small
+126469,BRONX,0,0.0,0,0,0,0,0,0,Taxi,small
+126470,BRONX,0,0.0,0,0,0,0,0,0,Station Wagon/Sport Utility Vehicle,small
+126471,QUEENS,0,0.0,0,0,0,0,0,0,Station Wagon/Sport Utility Vehicle,small

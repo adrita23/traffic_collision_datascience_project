@@ -1,0 +1,348 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\title{P3 Data Enrich/Format/Blend (Revised)}
+\author{Team 1: Adrita Anika, Anantha Sai Sreelekha, Soham Sarda}
+\date{2022-03-25}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={P3 Data Enrich/Format/Blend (Revised)},
+  pdfauthor={Team 1: Adrita Anika, Anantha Sai Sreelekha, Soham Sarda},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\begin{document}
+\maketitle
+
+We have four datasets: Collision, Person, Vehicles and Weather datsets.
+The following steps are taken for enrichment, blending and blending the
+datasets.
+
+\hypertarget{enrichment-and-formatting}{%
+\subparagraph{Enrichment and
+Formatting:}\label{enrichment-and-formatting}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Creating time-based features: We have one variable named as
+  ``CRASH\_DATE' which contains the date, month and year information.
+  From that, Crash Year', `Crash Month', `Crash Day', and `Time of day'
+  variables were derived. These variables will be used to visualize the
+  temporal distribution of crashes and look for patterns, if any.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(lubridate)}
+\NormalTok{crash\_data }\OtherTok{\textless{}{-}} \FunctionTok{read.csv}\NormalTok{(}\StringTok{"NYC\_crashes.csv"}\NormalTok{)}
+\NormalTok{crash\_data}\SpecialCharTok{$}\NormalTok{CRASH\_DAY }\OtherTok{\textless{}{-}} \FunctionTok{day}\NormalTok{(crash\_data}\SpecialCharTok{$}\NormalTok{CRASH\_DATE)}
+\NormalTok{crash\_data}\SpecialCharTok{$}\NormalTok{CRASH\_MONTH }\OtherTok{\textless{}{-}} \FunctionTok{month}\NormalTok{(crash\_data}\SpecialCharTok{$}\NormalTok{CRASH\_DATE)}
+\NormalTok{crash\_data}\SpecialCharTok{$}\NormalTok{CRASH\_YEAR }\OtherTok{\textless{}{-}} \FunctionTok{year}\NormalTok{(crash\_data}\SpecialCharTok{$}\NormalTok{CRASH\_DATE)}
+\end{Highlighting}
+\end{Shaded}
+\item
+  We want to see patterns based on weekdays (Sat, Sun,.. etc). Hence, we
+  enhance the data with another variable containing the weekday
+  information.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{crash\_data}\SpecialCharTok{$}\NormalTok{CRASH\_WDAY }\OtherTok{\textless{}{-}} \FunctionTok{weekdays}\NormalTok{(}\FunctionTok{as.Date}\NormalTok{(crash\_data}\SpecialCharTok{$}\NormalTok{CRASH\_DATE))}
+\end{Highlighting}
+\end{Shaded}
+\item
+  For time analysis, we divided 24 hours of the day time into 12
+  timeslots. Like: 00:00-01:59, 2:00-03:59,\ldots, 22:00-23:59. Later we
+  represented this with numbers starting from 0 to 11 as shown later in
+  this report.
+\item
+  We have the geographic information: longitude and latitude and zip
+  code. We will consider the zip codes as location IDs in our analysis
+  and place a marker on the map for each zip code, so we need to fix a
+  longitude and latitude value for the marker to be placed for each zip
+  code. We considered the average of all available longitudes under a
+  zip code for placing a marker on the map. Same thing is done for
+  latitude as well. This data is required for spatial analysis, we save
+  this as ``cluster\_data.csv'.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(dplyr)}
+\NormalTok{cluster\_data }\OtherTok{\textless{}{-}}\NormalTok{ crash\_data }\SpecialCharTok{\%\textgreater{}\%} \FunctionTok{group\_by}\NormalTok{(ZIP\_CODE) }\SpecialCharTok{\%\textgreater{}\%} \FunctionTok{summarise}\NormalTok{(}\AttributeTok{LAT =} \FunctionTok{mean}\NormalTok{(LATITUDE),}
+                                                              \AttributeTok{LNG =} \FunctionTok{mean}\NormalTok{(LONGITUDE),}
+                                                              \AttributeTok{Crash =} \FunctionTok{n}\NormalTok{(),)}
+\end{Highlighting}
+\end{Shaded}
+\item
+  All the column headers are once again formatted with a consistency
+  followed - Upper case letters with underscores between words.
+\item
+  For our analysis we created another variable named as
+  ``VEHICLE\_TYPE'' for the vehicles dataset. We categorized all the
+  vehicles depending on their sizes into four categories: very\_large,
+  large, medium, small. This has been done following this paper
+  {[}\href{https://www.researchgate.net/publication/337243001_Applying_Big_Data_Analytics_on_Motor_Vehicle_Collision_Predictions_in_New_York_City}{Paper
+  Link}{]}
+\item
+  The weather dataset does not have any common variable apart from
+  geodetic reference. The Lat-Long coordinates were used to find the
+  nearest weather station to each crash activity, and was then the
+  weather data for that station on the particular day of crash was
+  linked to the crash data.
+\item
+  We are considering a classification problem of traffic collision
+  severity based on ten features: emotional status, driver license
+  status, vehicle type, two contributing factors, position in vehicle,
+  safety equipment, day and time. We converted some of these variables
+  into numerical values with one hot encoding. This is done only for the
+  classification problem. Following code chunk shows the one-hot
+  encoding process for only one variable: position in vehicle.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{perX }\OtherTok{\textless{}{-}} \FunctionTok{read.csv}\NormalTok{(}\StringTok{"NYC\_persons.csv"}\NormalTok{)}
+\NormalTok{per }\OtherTok{\textless{}{-}}\NormalTok{ perX[, }\FunctionTok{c}\NormalTok{(}\StringTok{"COLLISION\_ID"}\NormalTok{,}\StringTok{"POSITION\_IN\_VEHICLE"}\NormalTok{)]}
+\NormalTok{per }\OtherTok{\textless{}{-}} \FunctionTok{filter}\NormalTok{(per, per}\SpecialCharTok{$}\NormalTok{POSITION\_IN\_VEHICLE}\SpecialCharTok{!=}\StringTok{"Unknown"}\NormalTok{)}
+\FunctionTok{library}\NormalTok{(caret)}
+\CommentTok{\#define one{-}hot encoding function}
+\NormalTok{dummy }\OtherTok{\textless{}{-}} \FunctionTok{dummyVars}\NormalTok{(}\StringTok{" \textasciitilde{} ."}\NormalTok{, }\AttributeTok{data=}\NormalTok{per)}
+\CommentTok{\#perform one{-}hot encoding on data frame}
+\NormalTok{final\_df }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{(}\FunctionTok{predict}\NormalTok{(dummy, }\AttributeTok{newdata=}\NormalTok{per))}
+\end{Highlighting}
+\end{Shaded}
+\end{enumerate}
+
+\hypertarget{mergingblending}{%
+\paragraph{Merging/Blending:}\label{mergingblending}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  All of the files will be stored in csv format. As we have huge
+  datasets, we created seperate csv files for some of the analysis. For
+  the classification of Traffic collision based on severity into three
+  classes (No hurt, Injury, Lethal) we will use ten attributes from the
+  three datasets: collision, person and vehicle. All these datasets
+  contain one common attribute ``COLLISION ID''. We inner joined these
+  datasets and kept the ten required features. First few rows of the
+  dataset is shown below. The result is presented after doing one hot
+  encoding.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{clf\_data }\OtherTok{\textless{}{-}} \FunctionTok{read.csv}\NormalTok{(}\StringTok{"dfx.csv"}\NormalTok{)}
+\FunctionTok{head}\NormalTok{(clf\_data, }\DecValTok{3}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##   X CONTRIBUTING_FACTOR_VEHICLE_1 EMOTIONAL_STATUS POSITION_IN_VEHICLE
+## 1 1                            15                7                   4
+## 2 2                            15                5                   2
+## 3 3                            15                5                   2
+##   SAFETY_EQUIPMENT CRASH_TIME VEHICLE_TYPE DRIVER_SEX DRIVER_LICENSE_STATUS
+## 1                8      22:20          178          2                     1
+## 2                2      22:20          178          1                     0
+## 3                2      22:20          178          2                     1
+##   CONTRIBUTING_FACTOR_1 Day label
+## 1                    28   2     1
+## 2                    15   2     1
+## 3                    28   2     1
+\end{verbatim}
+\item
+  As mentionied earlier, ``cluster\_data.csv'' wil be used for spatial
+  analysis for finding collision hotspots.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{head}\NormalTok{(cluster\_data,}\DecValTok{3}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## # A tibble: 3 x 4
+##   ZIP_CODE   LAT   LNG Crash
+##      <int> <dbl> <dbl> <int>
+## 1    10001  40.8 -74.0     1
+## 2    10012  40.7 -74.0     1
+## 3    10016  40.7 -74.0     3
+\end{verbatim}
+\item
+  For time analysis, we created another csv file that has the
+  information of weekdays and timeslot of the day and corresponding
+  number of collisions. We need this is data for two analysis (
+  forecasting and visual analysis)
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{time\_data }\OtherTok{\textless{}{-}} \FunctionTok{read.csv}\NormalTok{(}\StringTok{"refined\_time.csv"}\NormalTok{) }
+\FunctionTok{head}\NormalTok{(time\_data,}\DecValTok{3}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##      day new_time numCrash   time_slot
+## 1 Friday        0      430 00:00-01:59
+## 2 Friday        1      150 02:00-03:59
+## 3 Friday        2      164 04:00-05:59
+\end{verbatim}
+\item
+  As mentioned earlier, we categoried vehicles into four groups. The
+  dataset is shown below:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{vehicle\_data }\OtherTok{\textless{}{-}} \FunctionTok{read.csv}\NormalTok{(}\StringTok{"veh.csv"}\NormalTok{)}
+\FunctionTok{head}\NormalTok{(vehicle\_data,}\DecValTok{3}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##        X  BOROUGH NUMBER_OF_PERSONS_INJURED NUMBER_OF_PERSONS_KILLED
+## 1 126446 BROOKLYN                         0                        0
+## 2 126447   QUEENS                         0                        0
+## 3 126448 BROOKLYN                         0                        0
+##   NUMBER_OF_PEDESTRIANS_INJURED NUMBER_OF_PEDESTRIANS_KILLED
+## 1                             0                            0
+## 2                             0                            0
+## 3                             0                            0
+##   NUMBER_OF_CYCLIST_INJURED NUMBER_OF_CYCLIST_KILLED NUMBER_OF_MOTORIST_INJURED
+## 1                         0                        0                          0
+## 2                         0                        0                          0
+## 3                         0                        0                          0
+##   NUMBER_OF_MOTORIST_KILLED                 VEHICLE_TYPE_CODE_1   TYPE
+## 1                         0 Station Wagon/Sport Utility Vehicle  small
+## 2                         0                               Sedan  small
+## 3                         0                       Pick-up Truck medium
+\end{verbatim}
+\item
+  Finally, our weather dataset is shown:
+\end{enumerate}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{weather\_data }\OtherTok{\textless{}{-}} \FunctionTok{read.csv}\NormalTok{(}\StringTok{"weather.csv"}\NormalTok{)}
+\FunctionTok{head}\NormalTok{(weather\_data, }\DecValTok{3}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+##       X COLLISION_ID       DATE  TIME   BOROUGH    lat_x     lon_x
+## 1 37250      4273965 2020-01-14 18:10    QUEENS 40.70177 -73.90070
+## 2 69952      4128277 2019-05-08 14:24 MANHATTAN 40.76617 -73.95425
+## 3 69963      4128012 2019-05-08 10:30 MANHATTAN 40.75931 -73.96530
+##                LOCATION NUMBER_OF_PERSONS_INJURED NUMBER_OF_PERSONS_KILLED
+## 1    40.70177, -73.9007                         0                        0
+## 2 40.766167, -73.954254                         0                        0
+## 3   40.759308, -73.9653                         0                        0
+##   NUMBER_OF_CYCLIST_INJURED NUMBER_OF_CYCLIST_KILLED NUMBER_OF_MOTORIST_INJURED
+## 1                         0                        0                          0
+## 2                         0                        0                          0
+## 3                         0                        0                          0
+##   NUMBER_OF_MOTORIST_KILLED  CONTRIBUTING_FACTOR_VEHICLE_1 VEHICLE_TYPE_CODE_1
+## 1                         0          Following Too Closely               Sedan
+## 2                         0 Driver Inattention/Distraction               Sedan
+## 3                         0 Driver Inattention/Distraction                 Bus
+##   VEHICLE_TYPE_CODE_2 YEAR MONTH                        NAME PRCP SNOW SNWD
+## 1               Sedan 2020     1 NY CITY CENTRAL PARK, NY US 0.07    0    0
+## 2               Sedan 2019     5 NY CITY CENTRAL PARK, NY US 0.00    0    0
+## 3           Box Truck 2019     5 NY CITY CENTRAL PARK, NY US 0.00    0    0
+\end{verbatim}
+
+\end{document}

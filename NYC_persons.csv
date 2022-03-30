@@ -1,0 +1,101 @@
+"COLLISION_ID","UNIQUE_ID","CRASH_DATE","CRASH_TIME","PERSON_TYPE","PERSON_INJURY","PERSON_AGE","EJECTION","EMOTIONAL_STATUS","BODILY_INJURY","POSITION_IN_VEHICLE","SAFETY_EQUIPMENT","COMPLAINT","PED_ROLE","PERSON_SEX","CRASH_YEAR","CRASH_MONTH"
+4229554,10249006,"2019-10-26","9:43","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4230587,10255054,"2019-10-25","15:15","Occupant","Unspecified","33.0","Not Ejected","Does Not Apply","Does Not Apply","Front passenger, if two or more persons, including the driver, are in the front seat","Lap Belt & Harness","Does Not Apply","Passenger","F",2019,10
+4230550,10253177,"2019-10-26","17:55","Occupant","Unspecified","55.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4231168,10255516,"2019-10-25","11:16","Occupant","Unspecified","7.0","Not Ejected","Does Not Apply","Does Not Apply","Right rear passenger or motorcycle sidecar passenger","Lap Belt","Does Not Apply","Passenger","F",2019,10
+4230743,10253606,"2019-10-24","19:15","Occupant","Injured","27.0","Not Ejected","Conscious","Back","Driver","Lap Belt & Harness","Complaint of Pain or Nausea","Driver","M",2019,10
+4230047,10251336,"2019-10-26","16:45","Occupant","Unspecified","41.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","F",2019,10
+4229547,10248708,"2019-10-26","1:15","Pedestrian","Injured","24.0","Unknown","Conscious","Shoulder - Upper Arm","Unknown","Unknown","None Visible","Pedestrian","F",2019,10
+4229808,10250179,"2019-10-26","13:04","Occupant","Unspecified","36.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230915,10253792,"2019-10-24","8:20","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4230737,10253588,"2019-10-24","0:41","Occupant","Unspecified","30.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230840,10255322,"2019-10-26","23:50","Occupant","Unspecified","52.0","Not Ejected","Does Not Apply","Does Not Apply","Front passenger, if two or more persons, including the driver, are in the front seat","Lap Belt & Harness","Does Not Apply","Passenger","F",2019,10
+4230701,10254506,"2019-10-24","4:40","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4230916,10252623,"2019-10-24","1:44","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4231183,10252669,"2019-10-02","21:30","Occupant","Unspecified","0.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4230912,10252969,"2019-10-22","19:35","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4230665,10255026,"2019-10-25","10:00","Occupant","Unspecified","34.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4230576,10254996,"2019-10-25","8:30","Occupant","Unspecified","38.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4230715,10254556,"2019-10-26","8:50","Bicyclist","Injured","42.0","Not Ejected","Unknown","Knee-Lower Leg Foot","Driver","Unknown","None Visible","Driver","M",2019,10
+4230612,10254007,"2019-10-24","16:12","Occupant","Unspecified","55.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230679,10254490,"2019-10-23","14:25","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4229587,10248817,"2019-10-26","12:00","Occupant","Unspecified","36.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4230635,10255169,"2019-10-26","16:30","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4230144,10249284,"2019-10-26","22:26","Occupant","Unspecified","43.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","F",2019,10
+4230931,10253825,"2019-10-25","7:25","Occupant","Unspecified","30.0","Not Ejected","Does Not Apply","Does Not Apply","Left rear passenger, or rear passenger on a bicycle, motorcycle, snowmobile","None","Does Not Apply","Passenger","F",2019,10
+4229627,10248286,"2019-10-26","17:00","Occupant","Unspecified","57.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4229753,10252430,"2019-10-26","5:15","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4230765,10254806,"2019-10-26","9:55","Occupant","Unspecified","59.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230926,10253863,"2019-10-26","23:29","Occupant","Unspecified","37.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4229674,10248512,"2019-10-26","20:00","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Witness","Unknown",2019,10
+4230635,10255170,"2019-10-26","16:30","Occupant","Unspecified","52.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4230376,10250834,"2019-10-26","19:40","Bicyclist","Injured","36.0","Not Ejected","Conscious","Back","Driver","None","Internal","Driver","M",2019,10
+4230790,10253630,"2019-10-25","11:45","Occupant","Unspecified","44.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","F",2019,10
+4229662,10248383,"2019-10-26","13:00","Occupant","Unspecified","28.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","F",2019,10
+4230430,10250954,"2019-10-26","18:20","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","Unknown",2019,10
+4231118,10252810,"2019-10-23","12:52","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4230549,10253139,"2019-10-25","16:46","Occupant","Unspecified","49.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4230866,10254943,"2019-10-24","8:20","Occupant","Unspecified","13.0","Not Ejected","Does Not Apply","Does Not Apply","Middle front seat, or passenger lying across a seat","Other","Does Not Apply","Passenger","F",2019,10
+4229616,10248954,"2019-10-26","15:40","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4230733,10253511,"2019-10-10","19:45","Occupant","Unspecified","67.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4229771,10252438,"2019-10-26","7:00","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","F",2019,10
+4230358,10250831,"2019-10-26","18:10","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4229616,10248955,"2019-10-26","15:40","Occupant","Unspecified","81.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4231177,10254302,"2019-10-26","20:40","Occupant","Unspecified","64.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4229773,10252474,"2019-10-26","16:50","Occupant","Injured","50.0","Not Ejected","Conscious","Head","Front passenger, if two or more persons, including the driver, are in the front seat","Lap Belt & Harness","Complaint of Pain or Nausea","Passenger","F",2019,10
+4230652,10253763,"2019-10-26","12:45","Occupant","Unspecified","62.0","Not Ejected","Does Not Apply","Does Not Apply","Front passenger, if two or more persons, including the driver, are in the front seat","Lap Belt & Harness","Does Not Apply","Passenger","F",2019,10
+4229504,10248079,"2019-10-26","0:18","Occupant","Unspecified","68.0","Not Ejected","Does Not Apply","Does Not Apply","Left rear passenger, or rear passenger on a bicycle, motorcycle, snowmobile","Lap Belt & Harness","Does Not Apply","Passenger","M",2019,10
+4230907,10252980,"2019-10-24","11:00","Occupant","Unspecified","53.0","Not Ejected","Does Not Apply","Does Not Apply","Middle front seat, or passenger lying across a seat","Unknown","Does Not Apply","Passenger","F",2019,10
+4230580,10253130,"2019-10-25","15:20","Occupant","Unspecified","42.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230375,10250823,"2019-10-26","14:30","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","F",2019,10
+4229640,10248665,"2019-10-26","14:30","Occupant","Unspecified","78.0","Not Ejected","Does Not Apply","Does Not Apply","Left rear passenger, or rear passenger on a bicycle, motorcycle, snowmobile","Lap Belt & Harness","Does Not Apply","Passenger","M",2019,10
+4230699,10254492,"2019-10-23","15:00","Occupant","Unspecified","38.0","Not Ejected","Does Not Apply","Does Not Apply","Unknown","Unknown","Does Not Apply","Driver","M",2019,10
+4230562,10254970,"2019-10-25","13:36","Occupant","Unspecified","35.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt","Does Not Apply","Driver","M",2019,10
+4230133,10251121,"2019-10-26","0:00","Occupant","Unspecified","45.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4230391,10251087,"2019-10-26","1:20","Occupant","Injured","36.0","Not Ejected","Conscious","Back","Front passenger, if two or more persons, including the driver, are in the front seat","Lap Belt & Harness","Complaint of Pain or Nausea","Passenger","M",2019,10
+4230842,10255302,"2019-10-26","15:00","Occupant","Unspecified","23.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","F",2019,10
+4230958,10255274,"2019-10-23","14:15","Occupant","Unspecified","29.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","F",2019,10
+4230209,10250609,"2019-10-26","21:00","Occupant","Unspecified","71.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4322803,11318006,"2020-06-22","12:06","Occupant","Injured","3.0","Not Ejected","Conscious","Head","Middle rear seat, or passenger lying across a seat","Child Restraint Only","Whiplash","Passenger","M",2020,6
+4230047,10251338,"2019-10-26","16:45","Occupant","Unspecified","29.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4230969,10255330,"2019-10-26","23:42","Occupant","Unspecified","44.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4229612,10248477,"2019-10-26","12:06","Occupant","Unspecified","33.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Unknown","Does Not Apply","Driver","F",2019,10
+4230677,10255145,"2019-10-26","18:33","Occupant","Unspecified","49.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","F",2019,10
+4229854,10249714,"2019-10-26","21:00","Occupant","Unspecified","29.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230925,10253839,"2019-10-26","19:35","Occupant","Unspecified","42.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230709,10254537,"2019-10-25","5:03","Occupant","Unspecified","52.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4323168,11319591,"2020-06-22","12:00","Occupant","Unspecified","30.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2020,6
+4230939,10253858,"2019-10-26","22:45","Occupant","Unspecified","36.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4220234,10260578,"2019-10-04","11:05","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Witness","Unknown",2019,10
+4230439,10251056,"2019-10-26","0:05","Bicyclist","Injured","35.0","Ejected","Conscious","Elbow-Lower-Arm-Hand","Driver","None","Minor Bleeding","Driver","M",2019,10
+4230398,10249123,"2019-10-26","20:00","Occupant","Unspecified","41.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt","Does Not Apply","Driver","M",2019,10
+4229891,10252304,"2019-10-26","19:30","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4230790,10253631,"2019-10-25","11:45","Occupant","Unspecified","44.0","Not Ejected","Does Not Apply","Does Not Apply","Unknown","None","Does Not Apply","Driver","F",2019,10
+4230610,10253953,"2019-10-23","15:30","Occupant","Unspecified","65.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4231055,10253268,"2019-10-25","16:35","Occupant","Unspecified","28.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","F",2019,10
+4229778,10252435,"2019-10-26","4:30","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","Unknown",2019,10
+4230220,10250220,"2019-10-26","15:28","Occupant","Unspecified","35.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230866,10254947,"2019-10-24","8:20","Occupant","Unspecified","11.0","Not Ejected","Does Not Apply","Does Not Apply","Middle front seat, or passenger lying across a seat","Other","Does Not Apply","Passenger","F",2019,10
+4230925,10253841,"2019-10-26","19:35","Occupant","Unspecified","30.0","Not Ejected","Does Not Apply","Does Not Apply","Right rear passenger or motorcycle sidecar passenger","Lap Belt & Harness","Does Not Apply","Passenger","M",2019,10
+4230750,10254815,"2019-10-25","10:00","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","F",2019,10
+4229572,10248873,"2019-10-26","10:30","Occupant","Unspecified","23.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4230617,10253940,"2019-10-23","20:43","Occupant","Unspecified","35.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4229715,10248573,"2019-10-26","22:45","Occupant","Unspecified","21.0","Not Ejected","Does Not Apply","Does Not Apply","Left rear passenger, or rear passenger on a bicycle, motorcycle, snowmobile","Lap Belt & Harness","Does Not Apply","Passenger","F",2019,10
+4229955,10252010,"2019-10-26","20:00","Occupant","Unspecified","26.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4321220,11318758,"2020-06-18","17:57","Occupant","Unspecified","27.0","Not Ejected","Does Not Apply","Does Not Apply","Front passenger, if two or more persons, including the driver, are in the front seat","Lap Belt & Harness","Does Not Apply","Passenger","F",2020,6
+4230815,10253682,"2019-10-25","21:50","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","F",2019,10
+4229862,10251473,"2019-10-26","10:39","Occupant","Unspecified","43.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230708,10254532,"2019-10-24","17:35","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","Unknown",2019,10
+4230549,10253140,"2019-10-25","16:46","Occupant","Unspecified","49.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4229715,10248575,"2019-10-26","22:45","Occupant","Unspecified","56.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
+4230174,10249289,"2019-10-26","22:58","Occupant","Unspecified","89.0","Not Ejected","Does Not Apply","Does Not Apply","Right rear passenger or motorcycle sidecar passenger","Lap Belt & Harness","Does Not Apply","Passenger","M",2019,10
+4230632,10254037,"2019-10-25","1:21","Occupant","Unspecified","17.0","Not Ejected","Does Not Apply","Does Not Apply","Right rear passenger or motorcycle sidecar passenger","Lap Belt & Harness","Does Not Apply","Passenger","F",2019,10
+4230623,10255106,"2019-10-26","2:30","Occupant","Unspecified","28.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230563,10253167,"2019-10-26","5:40","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","Unknown",2019,10
+4230491,10251732,"2019-10-26","15:40","Occupant","Injured","32.0","Not Ejected","Conscious","Head","Driver","Lap Belt & Harness","Complaint of Pain or Nausea","Driver","M",2019,10
+4230701,10254505,"2019-10-24","4:40","Occupant","Unspecified","35.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt & Harness","Does Not Apply","Driver","M",2019,10
+4230752,10255584,"2019-10-26","18:00","Occupant","Unspecified","21.0","Not Ejected","Does Not Apply","Does Not Apply","Front passenger, if two or more persons, including the driver, are in the front seat","Lap Belt & Harness","Does Not Apply","Passenger","F",2019,10
+4230433,10249203,"2019-10-26","14:10","Occupant","Unspecified","52.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Unknown","Does Not Apply","Driver","M",2019,10
+4230604,10253400,"2019-10-25","7:40","Occupant","Unspecified","43.0","Not Ejected","Does Not Apply","Does Not Apply","Driver","Lap Belt","Does Not Apply","Driver","M",2019,10
+4230681,10254433,"2019-10-24","20:27","Occupant","Unspecified","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","U",2019,10
+4230294,10249579,"2019-10-26","9:05","Occupant","Unspecified","50.0","Unknown","Unknown","Unknown","Unknown","Unknown","Unknown","Registrant","M",2019,10
